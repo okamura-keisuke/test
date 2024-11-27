@@ -7,7 +7,7 @@ public class SelectDemo {
     public static void main(String[] args){
         System.out.print("点数を入力してください : ");
         Scanner scan = new Scanner(System.in);
-        int lessThan = Integer.valueOf(scan.nextLine());
+        int lessThan = Integer.valueOf(scan.nextLine());//aa
 
         try{
             PreExamDAO dao = new PreExamDAO();
